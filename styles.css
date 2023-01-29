@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Red+Hat+Display:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Open+Sans:wght@300&family=Red+Hat+Display:ital,wght@1,300&display=swap');
+body{
+    background-color:#E5E5E5;
+display: flex;
+justify-content: center;
+    
+}
+#box{
+    width:1400px;
+    height: 798px;
+    left: 0px;
+    top: 0px;
+    background-color:#0A2640;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}  
+.logo{
+    width:1200px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+    background-color:#0A2640;
+    margin-top:-640px;
+    display:flex;
+    flex-direction: row-reverse;
+    gap:40px;
+    align-items: center;
+} 
+.product{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color:white;
+}
+.services{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color:white;
+}
+.about{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color:white;
+}
+
+
+.log{
+    width:128px;
+    height:40px;
+    color:#0A2640;
+    border-radius:20px;
+    border:0 solid white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.box1{
+    position:absolute;
+    width:1200px;
+    height:423px;
+    margin:auto;
+}
+.text1{
+    padding-top:100px;
+    color:white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    font-family: 'Manrope', sans-serif;
+    width: 567px;
+height: 138px;
+}
+.text2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    width: 567px;
+height: 56px;
+color:#F1F1F1;
+margin-top:-45px;
+}
+.buton2{
+    width: 247px;
+height: 60px;
+border: 2px solid #69E6A6;
+border-radius: 56px;
+background-color: #65E4A3;
+font-size: 20px;
+color:#0A2640;
+font-weight: 700;
+}
+
+.explore{
+    width: 187px;
+    height: 60px;
+    border: 2px solid #FFFFFF;
+    border-radius: 56px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:-60px;
+    margin-left: 280px;
+
+
+}
+.epxflex{
+    color:white;
+    font-size: 20px;
+    font-weight:700;
+}
+
+.card{
+    position: absolute;
+   margin-left:700px;
+   margin-bottom:404px;
+   margin-top:-350px;
+
+    width: 493.86px;
+    height: 231.9px;
+    
+    
+    background-color: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(34.3553px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 15.0305px;
+}
+
+.burti1{
+    position: absolute;
+width: 9.42px;
+height: 9.42px;
+left: 14.13px;
+top: 14.13px;
+border-radius: 50%;
+background-color: #FC5B00;
+}
+
+.burti2{
+    position: absolute;
+width: 9.42px;
+height: 9.42px;
+left: 14.13px;
+top: 14.13px;
+border-radius: 50%;
+background-color: #ECAA00;
+margin-left:20px;
+}
+
+.burti3{
+    position: absolute;
+width: 9.42px;
+height: 9.42px;
+left: 14.13px;
+top: 14.13px;
+border-radius: 50%;
+background-color: #009D10;
+margin-left:40px;
+}
+
+#xazi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:330px;
+    margin-top:-330px;
+    justify-content: center;
+     
+     
+}
+
+.xazi1{
+    width: 11.78px;
+height: 54.17px;
+background-color:  #95ABBC;
+border-radius: 14.1323px;
+transform: rotate(90deg);
+
+}
+.xaziflex{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.xazi2{
+    width: 11.92px;
+height: 269.98px;
+justify-content:center;
+background-color: #8FB6D5;
+border-radius: 14.1323px;
+transform: rotate(90deg);
+margin-top:-325px;
+margin-left:370px;
+gap: 14.3px;
+
+}
+
+#xazi3{
+    display: flex;
+    flex-direction: column;
+    
+}
+.xazi4 {
+    width: 11.32px;
+height: 79.86px;
+margin-top:-175px;
+margin-left:850px;
+/* Busy - Light Blue */
+
+background-color: #0DBBFC;
+border-radius: 14.1323px;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.procent{
+    position: absolute;
+    width: 27.42px;
+    height: 20.26px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.9197px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-left:1040px;
+    margin-top:298px;
+
+    
+}
+.procent1{
+    position: absolute;
+width: 27.42px;
+height: 19.67px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 11.9197px;
+line-height: 21px;
+/* or 180% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+margin-right: 50px;
+margin-left:710px;
+margin-top:354px;
+}
+
+#xazi5{
+    display: flex;
+    flex-direction: column;
+}
+.xazi6{
+    position:absolute;
+    width: 11.92px;
+height: 317.66px;
+
+background-color: #FFFFFF;
+border-radius: 14.1323px;
+transform: rotate(90deg);
+margin-left:-230px;
+margin-top:-140px;
+
+}
+
+.procent2{
+    position: absolute;
+    width: 33.38px;
+height: 19.67px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 11.9197px;
+line-height: 21px;
+/* or 180% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+margin-top:408px;
+margin-left:1140px;
+}
+
+#xazi7{
+display: flex;
+    flex-direction: column;
+}
+
+.xazi8{
+    width: 11.32px;
+height: 253.89px;
+margin-top:143px;
+/* Busy - Green */
+
+background: #65E4A3;
+border-radius: 14.1323px;
+transform: rotate(90deg);
+margin-left:-260px;
+
+}
+.procent3{
+    position:absolute;
+    width: 39.93px;
+height: 19.67px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 11.9197px;
+line-height: 21px;
+/* or 180% */
+
+display: flex;
+align-items: center;
+margin-top:462px;
+color: #FFFFFF;
+margin-left:1040px;
+}
+
+#patarabox1{
+    position:absolute;
+    width: 192.18px;
+height: 165.34px;
+margin-left: 393px;
+margin-top: 520px;
+background-color: rgba(255, 255, 255, 0.18);
+backdrop-filter: blur(34.3553px);
+border-radius: 15.0305px;
+
+}
+
+#patarabox2{
+    position: absolute;
+width: 261.96px;
+height: 165.34px;
+margin-left: 935px;
+margin-top: 520px;
+
+background: rgba(255, 255, 255, 0.2);
+backdrop-filter: blur(66.5635px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 14.1323px;
+}
+
+
+

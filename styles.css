@@ -1,28 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Red+Hat+Display:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Open+Sans:wght@300&family=Red+Hat+Display:ital,wght@1,300&display=swap');
 body{
-    background-color:#E5E5E5;
-display: flex;
-justify-content: center;
+
     
 }
-#box{
-    width:1400px;
-    height: 798px;
-    left: 0px;
-    top: 0px;
+
+.section1{
+    background-color:#E5E5E5;
+    padding:56px 100px 64px 100px;
+    margin:auto;
+    max-width:1400px;
+    width:100%;
     background-color:#0A2640;
+    box-sizing:border-box;
+}
+
+.header{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    display:flex;
+    align-items: center;
+    gap:40px;
+}
+
+.burger-icon{
+    color:white;
+    display:none !important;
+}
+
+@media(max-width:860px){
+    .section1{
+
+        padding:20px 50px 20px 50px;
+
+    }
+    .nav{
+        display:none;
+    }
+    
+    .burger-icon{
+        display:block !important;
+    }
+}
+
+.section1__content{
+    display:flex;
+}
+.section1__content_left-side{
+    width:50%;
+    display:flex;
+    flex-direction:column;
     justify-content: center;
-    align-items:center;
-}  
+}
+
+.content_left-side_btns{
+    display:flex;
+    gap:24px;
+}
+.section1__content_right-side{
+    width:50%;
+    height:700px;
+    background-color: red;
+}
+
+@media(max-width:1200px){
+    .section1__content{
+        display:flex;
+        flex-direction: column;
+    }
+    .section1__content_right-side{
+        width:100%;
+
+    }
+    .section1__content_left-side{
+        width:100%;
+    }
+}
 .logo{
     width:1200px;
     height: 42px;
     left: 0px;
     top: 0px;
     background-color:#0A2640;
-    margin-top:-640px;
+    /* margin-top:-640px; */
     display:flex;
     flex-direction: row-reverse;
     gap:40px;
@@ -65,20 +128,19 @@ justify-content: center;
 }
 
 .box1{
-    position:absolute;
+    
     width:1200px;
     height:423px;
-    margin:auto;
+    /* margin:auto; */
 }
 .text1{
-    padding-top:100px;
+    line-height: 72px;
     color:white;
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
     font-family: 'Manrope', sans-serif;
-    width: 567px;
-height: 138px;
+    margin-bottom:16px;
 }
 .text2{
     font-family: 'Open Sans';
@@ -89,7 +151,8 @@ height: 138px;
     width: 567px;
 height: 56px;
 color:#F1F1F1;
-margin-top:-45px;
+margin-bottom:46px;
+/* margin-top:-45px; */
 }
 .buton2{
     width: 247px;
@@ -110,8 +173,8 @@ font-weight: 700;
     display:flex;
     align-items: center;
     justify-content: center;
-    margin-top:-60px;
-    margin-left: 280px;
+    /* margin-top:-60px; */
+    /* margin-left: 280px; */
 
 
 }
@@ -122,13 +185,12 @@ font-weight: 700;
 }
 
 .card{
-    position: absolute;
-   margin-left:700px;
-   margin-bottom:404px;
-   margin-top:-350px;
-
-    width: 493.86px;
-    height: 231.9px;
+    /* position: absolute; */
+   /* margin-left:700px; */
+   /* margin-bottom:404px; */
+   /* margin-top:-350px; */
+    /* width: 493.86px;
+    height: 231.9px; */
     
     
     background-color: rgba(255, 255, 255, 0.18);
@@ -156,7 +218,7 @@ left: 14.13px;
 top: 14.13px;
 border-radius: 50%;
 background-color: #ECAA00;
-margin-left:20px;
+/* margin-left:20px; */
 }
 
 .burti3{
@@ -167,15 +229,15 @@ left: 14.13px;
 top: 14.13px;
 border-radius: 50%;
 background-color: #009D10;
-margin-left:40px;
+/* margin-left:40px; */
 }
 
 #xazi{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left:330px;
-    margin-top:-330px;
+    /* margin-left:330px; */
+    /* margin-top:-330px; */
     justify-content: center;
      
      
@@ -202,8 +264,8 @@ justify-content:center;
 background-color: #8FB6D5;
 border-radius: 14.1323px;
 transform: rotate(90deg);
-margin-top:-325px;
-margin-left:370px;
+/* margin-top:-325px; */
+/* margin-left:370px; */
 gap: 14.3px;
 
 }
@@ -216,8 +278,8 @@ gap: 14.3px;
 .xazi4 {
     width: 11.32px;
 height: 79.86px;
-margin-top:-175px;
-margin-left:850px;
+/* margin-top:-175px; */
+/* margin-left:850px; */
 /* Busy - Light Blue */
 
 background-color: #0DBBFC;
@@ -240,8 +302,8 @@ flex-grow: 0;
     font-size: 11.9197px;
     line-height: 21px;
     color: #FFFFFF;
-    margin-left:1040px;
-    margin-top:298px;
+    /* margin-left:1040px; */
+    /* margin-top:298px; */
 
     
 }
@@ -261,9 +323,9 @@ display: flex;
 align-items: center;
 
 color: #FFFFFF;
-margin-right: 50px;
-margin-left:710px;
-margin-top:354px;
+/* margin-right: 50px; */
+/* margin-left:710px; */
+/* margin-top:354px; */
 }
 
 #xazi5{
@@ -271,15 +333,15 @@ margin-top:354px;
     flex-direction: column;
 }
 .xazi6{
-    position:absolute;
+    
     width: 11.92px;
 height: 317.66px;
 
 background-color: #FFFFFF;
 border-radius: 14.1323px;
 transform: rotate(90deg);
-margin-left:-230px;
-margin-top:-140px;
+/* margin-left:-230px; */
+/* margin-top:-140px; */
 
 }
 
@@ -299,8 +361,8 @@ display: flex;
 align-items: center;
 
 color: #FFFFFF;
-margin-top:408px;
-margin-left:1140px;
+/* margin-top:408px; */
+/* margin-left:1140px; */
 }
 
 #xazi7{
@@ -311,17 +373,17 @@ display: flex;
 .xazi8{
     width: 11.32px;
 height: 253.89px;
-margin-top:143px;
+/* margin-top:143px; */
 /* Busy - Green */
 
 background: #65E4A3;
 border-radius: 14.1323px;
 transform: rotate(90deg);
-margin-left:-260px;
+/* margin-left:-260px; */
 
 }
 .procent3{
-    position:absolute;
+    
     width: 39.93px;
 height: 19.67px;
 
@@ -334,17 +396,17 @@ line-height: 21px;
 
 display: flex;
 align-items: center;
-margin-top:462px;
+/* margin-top:462px; */
 color: #FFFFFF;
-margin-left:1040px;
+/* margin-left:1040px; */
 }
 
 #patarabox1{
-    position:absolute;
+    
     width: 192.18px;
 height: 165.34px;
-margin-left: 393px;
-margin-top: 520px;
+/* margin-left: 393px; */
+/* margin-top: 520px; */
 background-color: rgba(255, 255, 255, 0.18);
 backdrop-filter: blur(34.3553px);
 border-radius: 15.0305px;
@@ -355,8 +417,8 @@ border-radius: 15.0305px;
     position: absolute;
 width: 261.96px;
 height: 165.34px;
-margin-left: 935px;
-margin-top: 520px;
+/* margin-left: 935px; */
+/* margin-top: 520px; */
 
 background: rgba(255, 255, 255, 0.2);
 backdrop-filter: blur(66.5635px);
